@@ -1,0 +1,8 @@
+.summary-container{
+    width: 330px;
+}
+.summary-items,.summary-total{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}

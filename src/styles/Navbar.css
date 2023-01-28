@@ -1,0 +1,20 @@
+.nav-container{
+    background: #E6E8E9;
+    min-height: 64px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.li{
+    color: #535C67;
+    cursor: pointer;
+}
+.li:hover{
+    color: #091625;
+}

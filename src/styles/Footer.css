@@ -1,0 +1,48 @@
+.footer-container{
+    background-color: #E6E8E9;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.logo-footer{
+    width: 172px;
+    height: 48px;
+}
+.footer-ul{
+    list-style: none;
+    padding: 0;
+}
+.links{
+    padding: 10px 0;
+    cursor: pointer;
+}
+.links:hover{
+    color: grey;
+}
+
+.social-icon{
+    margin: 0 5px;
+    color: white;
+    background: #091625;
+    border-radius: 50%;
+    padding: 6px;
+    cursor: pointer;
+}
+.social-icon:hover{
+    transition: .3s;
+    color: #091625;
+    background: white;
+}
+.footerContact-container{
+    max-width: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.phone-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+}
