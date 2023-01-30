@@ -13,14 +13,12 @@ export default function CardProduct(prod) {
     if (productInCart){
       newCart = newCart.filter(producto => producto.name !== nombreProductoActual);
       localStorage.setItem("product",JSON.stringify(newCart));
-      console.log(newCart)
       setIsBought(!isBought)
     }
     else {
       item.quantity = 1;
       newCart.push(item)
       localStorage.setItem("product",JSON.stringify(newCart));
-      console.log(newCart)
       setIsBought(!isBought)
     }
   }
